@@ -1,0 +1,13 @@
+#
+# How to get interface index >> Get-NetIPAddress
+#
+# vlan_id interface_index
+
+native 25
+1710 98
+1700 93
+1699 88
+1610 83
+1600 78
+799 24
+wifi 23
