@@ -5,6 +5,7 @@ tmux split-window -v -t pingfesta.0
 tmux split-window -v -t pingfesta.0
 tmux split-window -v -t pingfesta.0
 tmux split-window -v -t pingfesta.0
+tmux split-window -v -t pingfesta.0
 tmux select-layout -t pingfesta.0 even-vertical
 tmux select-pane -t pingfesta.0
 tmux split-window -h
@@ -15,6 +16,8 @@ tmux split-window -h
 tmux select-pane -t pingfesta.6
 tmux split-window -h
 tmux select-pane -t pingfesta.8
+tmux split-window -h
+tmux select-pane -t pingfesta.10
 tmux split-window -h
 
 tmux send-keys -t pingfesta.0 'powershell.exe ping -t -w 1 1.1.1.1' C-m
