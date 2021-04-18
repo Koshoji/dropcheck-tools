@@ -20,8 +20,8 @@ tmux split-window -h
 tmux select-pane -t pingfesta.10
 tmux split-window -h
 
-tmux send-keys -t pingfesta.0 'powershell.exe ping -t -w 1 1.1.1.1' C-m
-tmux send-keys -t pingfesta.1 'powershell.exe ping -t -w 1 1.1.1.1' C-m
+tmux send-keys -t pingfesta.0 'powershell.exe ping -f -l 1472 -t -w 1 1.1.1.1' C-m
+tmux send-keys -t pingfesta.1 'powershell.exe ping -f -l 1472 -t -w 1 8.8.8.8' C-m
 tmux send-keys -t pingfesta.2 'powershell.exe ping -t -w 1 1.1.1.1' C-m
 tmux send-keys -t pingfesta.3 'powershell.exe ping -t -w 1 1.1.1.1' C-m
 tmux send-keys -t pingfesta.4 'powershell.exe ping -t -w 1 1.1.1.1' C-m
